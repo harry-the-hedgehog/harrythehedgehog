@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <nav className="nav">
+    <nav id="nav" className="themeContainer">
       <div id="logo"></div>
       <div id="home" className="navItem theme"></div>
       <div id="product" className="navItem theme"></div>
