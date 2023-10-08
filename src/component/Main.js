@@ -1,5 +1,7 @@
-export default function Main() {
+function Main({ theme }) {
   return (
-    <main></main>
+    <main className={theme}></main>
   );
 }
+
+export default Main;

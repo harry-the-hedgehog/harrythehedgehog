@@ -1,5 +1,7 @@
-export default function Footer() {
+function Footer({ theme }) {
   return (
-    <footer></footer>
+    <footer className={theme}></footer>
   );
 }
+
+export default Footer;
